@@ -1,0 +1,46 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Generated data files
+data/*
+!data/.gitkeep
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# macOS system files
+.DS_Store
+
+# IDE configuration
+.vscode/
+.idea/
+
+# dbt generated files
+dbt/target/
+dbt/dbt_packages/
+
+# Spark generated files
+spark-warehouse/
+checkpoints/
+
+# Testing cache
+.pytest_cache/
+.coverage
